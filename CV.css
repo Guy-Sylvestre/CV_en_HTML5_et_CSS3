@@ -1,0 +1,240 @@
+body {
+    font-family: sans-serif;
+    margin: 45px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.body {
+    background-color: bisque;
+}
+
+
+/*************************************************/
+
+
+/*********************Le header********************/
+
+
+/**************************************************/
+
+h1 {
+    text-align: center;
+    border: 4px inset bisque;
+    background-color: aliceblue;
+    color: coral;
+    padding: 10px;
+    border-bottom: 4px solid bisque;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    user-select: none;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+}
+
+#sous-titre:hover {
+    border: 4px inset bisque;
+    background-color: rgb(142, 238, 255);
+    color: rgb(190, 59, 11);
+    border-bottom: 4px solid rgb(4, 197, 197);
+}
+
+#grand-titre:hover {
+    border: 4px inset bisque;
+    background-color: rgb(142, 238, 255);
+    color: rgb(190, 59, 11);
+    border: 4px solid rgb(4, 197, 197);
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h2{
+    user-select: none;
+    -webkit-user-select:none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.person p,
+.person a {
+    margin-top: 15%;
+}
+.person img{
+    border-radius: 4em;
+}
+
+.header-h1 {
+    text-align: center;
+    text-shadow: 6px 6px 4px rgb(105, 228, 236);
+}
+
+
+/*************************************************/
+
+
+/*********************Le corps********************/
+
+
+/**************************************************/
+
+.container-body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.body-container-one {
+    width: 65%;
+}
+
+#lien0 {
+    list-style-type: circle;
+}
+
+#lien {
+    list-style-type: none;
+}
+
+.année {
+    float: left;
+    margin-right: 10%;
+    font-weight: bold;
+}
+
+.body-container-two {
+    width: 30%;
+}
+
+h2,
+h3 {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 8px solid rgb(243, 175, 91);
+    background-color: rgb(134, 211, 224);
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+h2:hover,
+h3:hover {
+    border-bottom: 8px solid rgb(4, 197, 197);
+    background-color: rgb(142, 238, 255);
+    color: blue;
+}
+
+#réseaux-sociaux p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#réseaux-sociaux p em {
+    color: black;
+    font-weight: none;
+    font-size: 15px;
+}
+
+span {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+}
+
+
+/*************************************************/
+
+
+/*********************Le responsible design*******/
+
+
+/**************************************************/
+
+@media screen and (max-width: 600px) {
+    body {
+        font-family: sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 25px;
+        background-color: aliceblue;
+        color: coral;
+        padding: 5px;
+        border: 2px inset bisque;
+        user-select: none;
+    }
+    #sous-titre:hover {
+        border: 2px inset bisque;
+        background-color: rgb(142, 238, 255);
+        color: rgb(190, 59, 11);
+        border-bottom: 2px solid rgb(4, 197, 197);
+    }
+    #grand-titre:hover {
+        border: 2px inset bisque;
+        background-color: rgb(142, 238, 255);
+        color: rgb(190, 59, 11);
+        border: 2px solid rgb(4, 197, 197);
+    }
+    .person p {
+        text-align: justify;
+        width: 100%;
+        margin: auto;
+    }
+    .photo {
+        display: none;
+    }
+    .body-container-one {
+        width: 100%;
+    }
+    .body-container-two {
+        width: 100%;
+    }
+    h2,
+    h3 {
+        background-color: rgb(134, 211, 224);
+        text-align: center;
+        padding: 5px;
+        font-size: 18px;
+        border-bottom: 4px solid rgb(243, 175, 91);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        user-select: none;
+    }
+    h2:hover,
+    h3:hover {
+        border-bottom: 4px solid rgb(4, 197, 197);
+        background-color: rgb(142, 238, 255);
+        color: blue;
+        user-select: none;
+    }
+    #réseaux-sociaux p {
+        color: cornflowerblue;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #réseaux-sociaux p em {
+        color: black;
+        font-weight: none;
+        font-size: 15px;
+    }
+    span {
+        border: 1px solid blue;
+        background-color: blue;
+        color: white;
+        font-size: 15px;
+        padding: 1px;
+    }
+}
